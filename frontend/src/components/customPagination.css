@@ -1,0 +1,19 @@
+.paginationContainer {
+  text-align: center;
+  /* padding-top: 35px; */
+  margin-top: auto;
+}
+
+ul.pagination {
+  list-style: none;
+  display: inline-flex;
+}
+
+li.page-item {
+  border: 1px solid grey;
+  padding: 5px 10px;
+}
+
+.active {
+  background-color: rgb(245, 242, 242);
+}

@@ -1,0 +1,96 @@
+.statsMainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.adminStatsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.adminStat {
+  width: 30%;
+  height: 120px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.adminStat_name_value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.stat_name_value {
+  text-align: center;
+}
+
+.stat_name_value p {
+  color: #9ac8cd;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.adminStat_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminStat_icon i {
+  font-size: 24px;
+}
+
+.adminfirstStat {
+  background-color: #caf4ff;
+  color: #7743db;
+}
+
+.adminsecondStat {
+  background-color: #fff8e3;
+  color: #ffbb64;
+}
+
+.adminthirdStat {
+  background-color: #f5eee6;
+  color: #ff6868;
+}
+
+.graphContainer {
+  margin: 22px auto auto auto;
+  width: 85%;
+  padding: 20px;
+  height: 460px;
+}
+
+@media screen and (max-width: 768px) {
+  .adminStatsContainer {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .adminStat {
+    width: 45%;
+  }
+
+  .graphContainer {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .adminStat {
+    width: 100%;
+  }
+}

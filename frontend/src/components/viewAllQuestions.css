@@ -1,0 +1,16 @@
+.viewQuestionsSection {
+  text-align: center;
+}
+
+.viewQuestionsSection select {
+  width: 250px;
+  margin: 15px;
+  padding: 8px;
+  outline: none;
+  border-radius: 3px;
+}
+
+.allQuestionsDiv {
+  max-width: 800px;
+  margin: 40px auto;
+}

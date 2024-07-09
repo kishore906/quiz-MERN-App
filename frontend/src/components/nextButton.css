@@ -1,0 +1,15 @@
+.nextBtn {
+  margin-top: 14px;
+  padding: 8px;
+  width: 100px;
+  font-size: 16px;
+  background-color: #31363f;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  transition: 0.3s ease-in-out;
+}
+
+.nextBtn:hover {
+  background-color: #455a64;
+}

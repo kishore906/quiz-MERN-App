@@ -1,0 +1,40 @@
+.editQuestionContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.editQuestionContainer h3 {
+  text-align: center;
+}
+
+.editQuestionContainer form {
+  margin-top: 24px;
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.editQuestionContainer form textarea,
+.editQuestionContainer form input {
+  width: 100%;
+}
+
+.editQuestionContainer form select {
+  margin-left: 14px;
+  width: 40%;
+}
+
+.editQuestionContainer form textarea,
+.editQuestionContainer form input,
+.editQuestionContainer form select {
+  padding: 8px;
+  margin-bottom: 14px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #cfd8dc;
+  transition: 0.4s ease-in-out;
+  font-size: 16px;
+  font-weight: 300;
+}

@@ -1,0 +1,24 @@
+.overAllStatsDiv {
+  width: 40%;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 5px;
+  padding: 14px;
+}
+
+.overAllStatsHeading {
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.statsMsg {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .overAllStatsDiv {
+    width: 98%;
+  }
+}

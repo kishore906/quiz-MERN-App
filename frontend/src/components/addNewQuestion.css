@@ -1,0 +1,67 @@
+.addNewQuestionSection {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
+
+.addNewQuestionSection h3 {
+  margin: 20px;
+  text-align: center;
+}
+
+.addNewQuestionSection form label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.addNewQuestionSection form select,
+.addNewQuestionSection form input,
+.addNewQuestionSection form textarea {
+  width: 100%;
+  margin: 12px 0px;
+}
+
+.addNewQuestionSection form select,
+.addNewQuestionSection textarea,
+.addNewQuestionSection form input {
+  padding: 8px;
+  margin-bottom: 14px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #cfd8dc;
+  transition: 0.4s ease-in-out;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.completeQuestionDiv {
+  margin-bottom: 14px;
+}
+
+.deleteQuestionBtn {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.deleteQuestionBtn i {
+  font-size: 16px;
+}
+
+.addQuestionBtn {
+  margin: 14px 0px;
+}
+
+.addQuestionBtn button {
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  padding: 8px 5px;
+  font-size: 14px;
+}

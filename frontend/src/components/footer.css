@@ -1,0 +1,9 @@
+footer {
+  padding: 28px;
+  margin-top: auto;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 200;
+}

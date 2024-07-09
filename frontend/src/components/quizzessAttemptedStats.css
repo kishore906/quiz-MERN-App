@@ -1,0 +1,55 @@
+.quizzessAttemptedStatsDiv {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.quizDetailsDiv {
+  padding: 14px;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.attemptedDate {
+  color: #76abae;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.score {
+  color: #a87c7c;
+}
+
+.accuracyOuter {
+  width: 30%;
+  background-color: #e8e6ed;
+  height: 15px;
+  border-radius: 20px;
+}
+
+.accuracyInner {
+  background-color: #35155d;
+  color: white;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 700;
+  height: 100%;
+  border-radius: 20px;
+  padding: 0px 5px;
+}
+
+.noQuizzesMsg {
+  margin: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .quizzessAttemptedStatsDiv {
+    width: 100%;
+  }
+}

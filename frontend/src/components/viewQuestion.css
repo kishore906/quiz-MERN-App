@@ -1,0 +1,31 @@
+.viewQuestionContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.questionDiv h4 {
+  margin-bottom: 14px;
+}
+
+.questionDiv .question {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 14px;
+  width: 100%;
+  height: auto;
+}
+
+.optionsDiv {
+  margin-bottom: 40px;
+}
+
+.optionsDiv .option {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 14px 0px;
+}

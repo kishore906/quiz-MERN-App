@@ -1,0 +1,78 @@
+header {
+  padding: 15px 15px 15px 0px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: 50px;
+}
+
+.logo h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.nav_container nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav_container nav ul li {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav_container span {
+  font-size: 26px;
+  /* margin-right: 20px; */
+  display: none;
+}
+
+@media screen and (max-width: 490px) {
+  .nav_container span {
+    display: block;
+  }
+
+  .nav_container nav {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow-y: hidden;
+    transition: 0.5s;
+    background-color: #f3eded;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  }
+
+  .nav_container nav ul {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .nav_container nav ul li {
+    font-size: 20px;
+  }
+
+  .nav_container nav span {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+}
